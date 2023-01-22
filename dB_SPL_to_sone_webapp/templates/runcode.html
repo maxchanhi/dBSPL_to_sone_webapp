@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Run Code</title>
+</head>
+<body>
+    <h1>Convert dB_SPL to Sone</h1>
+    <form action="" method='POST'>
+        dB_SPL
+        <input type="text" name="dB_SPL"><br>
+        Frequency 
+        <input type="text" name="Frequency"><br>
+        <button type="submit" value="submit">Calculate</button>
+    </form>
+    {% if sone %}
+    <p>{{sone}} sone in loudness</p>
+    {% endif %}
+</body>
+</html>
+
